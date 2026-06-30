@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TRguessr - Uydu Fotoğrafından Şehir Tahmin Etme Oyunu</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+        <a href="#" class="nav-logo">🌍 TRguessr</a>
+        <div class="nav-links">
+            <a href="#" onclick="location.reload()">Lobi</a>
+            <a href="#" target="_blank">Rehber</a>
+        </div>
+    </header>
+
+    <div id="lobby-screen" class="screen active">
+        <h1>TRguessr 🌍</h1>
+        <p class="subtitle">Sınırlar ve isimler gizlendi. Şehirleri uydu görüntüsünden tanıyabilir misin?</p>
+        
+        <div class="setup-group">
+            <h3>Zorluk Derecesi Seçin</h3>
+            <div class="radio-tile-group">
+                <button class="btn-select selected" onclick="setDifficulty('all', this)">Hepsi</button>
+                <button class="btn-select" onclick="setDifficulty(1, this)">Kolay (Büyükşehirler)</button>
+                <button class="btn-select" onclick="setDifficulty(2, this)">Orta</button>
+                <button class="btn-select" onclick="setDifficulty(3, this)">Zor (💀)</button>
+            </div>
+        </div>
+
+        <button class="start-btn" onclick="startSelectedGame()">Oyunu Başlat</button>
+    </div>
+
+    <div id="game-screen" class="screen">
+        <div class="game-info">
+            <span id="info-difficulty">Zorluk: -</span>
+            <span id="info-score">Skor: 0</span>
+            <span id="info-progress">Soru: -</span>
+        </div>
+        <div id="map"></div>
+        
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Şehir adı yazın..." autocomplete="off">
+            <div id="autocomplete-box" class="autocomplete-list"></div>
+        </div>
+        
+        <div id="result"></div>
+        <button id="next-btn" class="action-btn">Sonraki Şehir</button>
+    </div>
+
+    <div id="game-over-screen" class="screen">
+        <h2>Oyun Bitti! 🏆</h2>
+        <p class="subtitle">Bu turdaki performansın:</p>
+        
+        <div class="score-board">
+            <div class="score-stat"><span>Toplam Soru:</span> <strong id="stat-total">-</strong></div>
+            <div class="score-stat"><span>Doğru Tahmin:</span> <strong id="stat-correct" style="color: #4caf50;">-</strong></div>
+            <div class="score-stat"><span>Yanlış Tahmin:</span> <strong id="stat-wrong" style="color: #f44336;">-</strong></div>
+            <div class="score-stat"><span>Toplam Skor:</span> <strong id="stat-score">-</strong></div>
+        </div>
+
+        <button class="btn-select" style="margin-top:25px; background-color:#00bcd4; color:#000; width: 100%; max-width: 280px;" onclick="location.reload()">Ana Menüye Dön</button>
+    </div>
+
+    <footer>
+        <div>© 2026 <strong>TRguessr</strong>.</div>
+        <div>Geliştirici: <a href="https://github.com" target="_blank">@GitHubUzeriniz</a> v1.0.0</div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

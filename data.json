@@ -1,0 +1,650 @@
+[
+    {
+        "cityName": "Adana",
+        "coords": [
+            36.9914,
+            35.3256
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Adıyaman",
+        "coords": [
+            37.7642,
+            38.2763
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Afyonkarahisar",
+        "coords": [
+            38.7569,
+            30.5387
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Ağrı",
+        "coords": [
+            39.7191,
+            43.0514
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Amasya",
+        "coords": [
+            40.6533,
+            35.8331
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Ankara",
+        "coords": [
+            39.9334,
+            32.8597
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Antalya",
+        "coords": [
+            36.8848,
+            30.704
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Artvin",
+        "coords": [
+            41.1828,
+            41.8183
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Aydın",
+        "coords": [
+            37.8444,
+            27.8458
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Balıkesir",
+        "coords": [
+            39.6484,
+            27.8826
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Bilecik",
+        "coords": [
+            40.1419,
+            29.9793
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Bingöl",
+        "coords": [
+            38.8847,
+            40.4939
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Bitlis",
+        "coords": [
+            38.4006,
+            42.1095
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Bolu",
+        "coords": [
+            40.7358,
+            31.6078
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Burdur",
+        "coords": [
+            37.7204,
+            30.2908
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Bursa",
+        "coords": [
+            40.1885,
+            29.061
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Çanakkale",
+        "coords": [
+            40.1467,
+            26.4086
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Çankırı",
+        "coords": [
+            40.6013,
+            33.6134
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Çorum",
+        "coords": [
+            40.5489,
+            34.9533
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Denizli",
+        "coords": [
+            37.7833,
+            29.0947
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Diyarbakır",
+        "coords": [
+            37.9158,
+            40.2189
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Edirne",
+        "coords": [
+            41.6772,
+            26.5557
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Elazığ",
+        "coords": [
+            38.6743,
+            39.2232
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Erzincan",
+        "coords": [
+            39.7483,
+            39.4917
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Erzurum",
+        "coords": [
+            39.9056,
+            41.2658
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Eskişehir",
+        "coords": [
+            39.7767,
+            30.5206
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Gaziantep",
+        "coords": [
+            37.0594,
+            37.3791
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Giresun",
+        "coords": [
+            40.9175,
+            38.3927
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Gümüşhane",
+        "coords": [
+            40.4608,
+            39.4803
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Hakkari",
+        "coords": [
+            37.5744,
+            43.7408
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Hatay",
+        "coords": [
+            36.2023,
+            36.1613
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Isparta",
+        "coords": [
+            37.7648,
+            30.5566
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Mersin",
+        "coords": [
+            36.8121,
+            34.6415
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "İstanbul",
+        "coords": [
+            41.0082,
+            28.9784
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "İzmir",
+        "coords": [
+            38.4192,
+            27.1389
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Kars",
+        "coords": [
+            40.6016,
+            43.095
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kastamonu",
+        "coords": [
+            41.3781,
+            33.7753
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kayseri",
+        "coords": [
+            38.7205,
+            35.4826
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Kırklareli",
+        "coords": [
+            41.7351,
+            27.2244
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kırşehir",
+        "coords": [
+            39.1456,
+            34.1639
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kocaeli",
+        "coords": [
+            40.7654,
+            29.9408
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Konya",
+        "coords": [
+            37.8746,
+            32.4932
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Kütahya",
+        "coords": [
+            39.4242,
+            29.9833
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Malatya",
+        "coords": [
+            38.3554,
+            38.3335
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Manisa",
+        "coords": [
+            38.6141,
+            27.4292
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Kahramanmaraş",
+        "coords": [
+            37.5753,
+            36.9228
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Mardin",
+        "coords": [
+            37.3129,
+            40.7339
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Muğla",
+        "coords": [
+            37.2181,
+            28.3665
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Muş",
+        "coords": [
+            38.7432,
+            41.5064
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Nevşehir",
+        "coords": [
+            38.6244,
+            34.7144
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Niğde",
+        "coords": [
+            37.9698,
+            34.6757
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Ordu",
+        "coords": [
+            40.9839,
+            37.8764
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Rize",
+        "coords": [
+            41.0251,
+            40.5174
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Sakarya",
+        "coords": [
+            40.7719,
+            30.4042
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Samsun",
+        "coords": [
+            41.2867,
+            36.33
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Siirt",
+        "coords": [
+            37.9274,
+            41.9419
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Sinop",
+        "coords": [
+            42.0281,
+            35.1517
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Sivas",
+        "coords": [
+            39.7505,
+            37.0156
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Tekirdağ",
+        "coords": [
+            40.9778,
+            27.5114
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Tokat",
+        "coords": [
+            40.3161,
+            36.5512
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Trabzon",
+        "coords": [
+            41.0027,
+            39.7168
+        ],
+        "difficulty": 1
+    },
+    {
+        "cityName": "Tunceli",
+        "coords": [
+            39.1083,
+            39.5472
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Şanlıurfa",
+        "coords": [
+            37.1675,
+            38.7955
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Uşak",
+        "coords": [
+            38.6742,
+            29.4059
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Van",
+        "coords": [
+            38.5012,
+            43.373
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Yozgat",
+        "coords": [
+            39.8211,
+            34.8044
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Zonguldak",
+        "coords": [
+            41.4514,
+            31.7944
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Aksaray",
+        "coords": [
+            38.3687,
+            34.0297
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Bayburt",
+        "coords": [
+            40.2562,
+            40.2249
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Karaman",
+        "coords": [
+            37.1812,
+            33.2222
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kırıkkale",
+        "coords": [
+            39.8453,
+            33.5153
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Batman",
+        "coords": [
+            37.8874,
+            41.1322
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Şırnak",
+        "coords": [
+            37.5192,
+            42.4542
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Bartın",
+        "coords": [
+            41.6358,
+            32.3375
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Ardahan",
+        "coords": [
+            41.1127,
+            42.7022
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Iğdır",
+        "coords": [
+            39.9201,
+            44.0436
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Yalova",
+        "coords": [
+            40.6549,
+            29.2738
+        ],
+        "difficulty": 2
+    },
+    {
+        "cityName": "Karabük",
+        "coords": [
+            41.2049,
+            32.6246
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Kilis",
+        "coords": [
+            36.7164,
+            37.1147
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Osmaniye",
+        "coords": [
+            37.0744,
+            36.2467
+        ],
+        "difficulty": 3
+    },
+    {
+        "cityName": "Düzce",
+        "coords": [
+            40.8419,
+            31.1589
+        ],
+        "difficulty": 3
+    }
+]
