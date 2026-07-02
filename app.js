@@ -97,8 +97,8 @@ function setupAutocomplete() {
             if (!val) return;
 
             // Yazılan metne tam uyan ya da onunla başlayan ilk şehri bul
-            const exactOrFirstMatch = allCities.find(c => 
-                c.cityName.toLocaleUpperCase('tr-TR') === val || 
+            const exactOrFirstMatch = allCities.find(c =>
+                c.cityName.toLocaleUpperCase('tr-TR') === val ||
                 c.cityName.toLocaleUpperCase('tr-TR').startsWith(val)
             );
 
@@ -117,7 +117,7 @@ function setupAutocomplete() {
         box.innerHTML = "";
         if (!val) return;
 
-        const matches = allCities.filter(c => 
+        const matches = allCities.filter(c =>
             c.cityName.toLocaleUpperCase('tr-TR').startsWith(val)
         ).slice(0, 5);
 
@@ -172,6 +172,13 @@ function showGameOver() {
     document.getElementById('game-screen').classList.remove('active');
     document.getElementById('game-over-screen').classList.add('active');
 
+    // Seçilen zorluk seviyesini Türkçe metne çeviriyoruz
+    let diffText = "Hepsi";
+    if (selectedDifficulty === 1) diffText = "Kolay (Büyükşehirler)";
+    else if (selectedDifficulty === 2) diffText = "Orta";
+    else if (selectedDifficulty === 3) diffText = "Zor 💀";
+
+    document.getElementById('stat-difficulty').innerText = diffText;
     document.getElementById('stat-total').innerText = gameQueue.length;
     document.getElementById('stat-correct').innerText = correctCount;
     document.getElementById('stat-wrong').innerText = wrongCount;
